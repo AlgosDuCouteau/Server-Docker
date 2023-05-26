@@ -14,7 +14,7 @@ services:
       - "ACCEPT_EULA=Y"
       - "MSSQL_PID=Express"
     volumes:
-      - /home/algos/sqlserver/database:/var/opt/mssql/data
+      - /home/algos/database:/var/opt/mssql/data
     networks:
       - "APIServer"
 
